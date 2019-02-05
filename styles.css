@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:200');
+.admin {
+  float: right;
+  margin: 10px 0 0 0;
+}
+
+.admin-arrow {
+  height: 13px;
+  margin: 12px 7px 0 7px;
+}
+
+.admin-icon {
+  height: 18px;
+  margin: 10px 7px 0 0px;
+}
+
+.admin-username {
+  color: #8db1b9;
+  font-size: 15px;
+}
+
+.admin-username:hover {
+  color: #708d94;
+}
+
+.albatross {
+  height: 50px;
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+}
+
+.background {
+ /* background-image: url("photos/furb.jpg");*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 133px;
+  width: 100%px;
+}
+
+.background-one {
+  background-image: url("photos/headshot.jpg");
+}
+
+.background-two {
+  background-image: url("photos/dancefight.jpg");
+}
+
+.background-three {
+  background-image: url("photos/sit.jpg");
+}
+
+.background-four {
+  background-image: url("photos/down.jpg");
+}
+
+.background-five {
+  background-image: url("photos/fullbody.jpg");
+}
+
+.background-six {
+  background-image: url("photos/good.jpg");
+}
+
+.background-seven {
+  background-image: url("photos/look.jpg");
+}
+
+.background-eight {
+  background-image: url("photos/fight.jpg");
+}
+
+.box {
+  background-repeat: no-repeat;
+  background-size: contain;
+  box-shadow: 3px 3px #afc9ce;
+  border-style: solid;
+  border-width: 1px;
+  height: 374px;
+  width: 262px;
+}
+
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px 0px 11px 16px;
+  max-width: 1080px;
+}
+
+.box-container-two {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px 0px 512px 16px;
+  width: 1080px;
+}
+
+.box-text {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 200px;
+  line-height: 0px;
+  margin: -5px 10px;
+}
+
+.icon {
+  align-self: center;
+  fill: pink;
+  margin: 0 10px 0 0;
+  width: 28px;
+}
+
+.link {
+  color: #8db1b9;
+  margin: 10px 0 10px 0;
+  text-decoration: none;
+}
+
+.nav-bar {
+  background-color: #435458;
+  color: #afc9ce;
+  display: inline-block;
+  font-family: Work Sans;
+  font-size: 18px;
+  height: 138px;
+  left: 0;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+
+.shares {
+  color: white;
+}
+
+.small {
+  font-size: 12px;
+}
+
+a {
+  color: #435458;
+}
+
+a:hover {
+  color: #708d94;
+}
+
+body {
+  background-color: #dce7ea;
+  color: #435458;
+  font-family: Work Sans;
+  margin: 0;
+}
+
+h1 {
+  margin: 42px 0px 0px 15px;
+}
+
+li {
+  display: flex;
+  padding: 23px;
+  margin: 45px 0px 0px 0px;
+}
+
+li:hover {
+  color: #708d94;
+}
+
+ul {
+  display: flex;
+}
+
+@media screen and (max-width: 680px) {
+  li {
+    display: block;
+    padding: 5px;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 1072px) {
+  .box-container {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .box {
+    margin: 1.5%;
+    width: 30.3%;
+  }
+}
+
+@media screen and (max-width: 1072px) {
+  .box-container-two {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+  }
+}
+
+@media screen and (max-width: 844px) {
+  .box-text {
+    margin: 0;
+  }
+  .box {
+    width: 33%%;
+  }
+  .box-container-two {
+    width: 98.2%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .box-container {
+    flex-direction: column;
+  }
+  .box-container-two {
+    flex-direction: column;
+  }
+  .box {
+    width: 60%;
+  }
+  ul {
+    display: block;
+  }
+}
+
+
+
