@@ -1,8 +1,6 @@
 ### Static Comp 1
-This was an assignment from school. I tried to recreate a comp given to me.
+This was an assignment from school. I tried to recreate a layout given to me.
 
-Here's the comp:
-[Comp!](photos/comp.jpg)
+[Here's the original.](photos/comp.jpg)
 
-Here's my attempt:
-[Attempt!](photos/screenshot.jpg)
+[Here's my attempt.](photos/screenshot.jpg)
